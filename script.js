@@ -60,7 +60,9 @@ document.addEventListener("DOMContentLoaded", function() {
             newRow.insertCell(3).textContent = durationExtras ? JSON.stringify(durationExtras) : "N/A";
             newRow.insertCell(4).textContent = price ? Math.floor(price / (duration * 30)) : "N/A";
         } else {
-            alert(`Cette durée est impossible: ${duration} mois`)
+            alert(`Cette durée est impossible: ${duration} mois
+            Choisissez une durée entre 4 et 9 mois
+            `)
         }
     }
 });
