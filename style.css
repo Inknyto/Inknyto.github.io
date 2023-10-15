@@ -1,0 +1,154 @@
+* {
+    background-color:#000;
+    color:#fff
+  }
+  body {
+    background-image:url(blueback.jpg);
+    padding:50px;
+    height:1000px;
+    display:flex;
+    align-items:center;
+    flex-direction:column
+  }
+  h2 {
+    background:0 0
+  }
+  label {
+    font-size:20px;
+    text-align:right
+  }
+  .title {
+    font-family:Verdana;
+    font-size:15px
+  }
+  table {
+    border-collapse:collapse;
+    border:0;
+    font-family:Verdana;
+    color:#5c5558;
+    font-size:12px;
+    text-align:left;
+    background:0 0
+  }
+  * {
+    font-family:sans-serif;
+    color:#fff
+  }
+  tr {
+    border:none;
+    background:0 0;
+    border-radius:10px;
+    width:1000px
+  }
+  th {
+    background-color:#308cba
+  }
+  label {
+    background:0 0
+  }
+  .header {
+    display:flex;
+    justify-content:center;
+    background:0 0
+  }
+
+  #header {
+    margin:12px
+  }
+  button {
+    width:200px;
+    height:50px;
+    font-family:Roboto,sans-serif;
+    font-size:25px;
+    text-transform:uppercase;
+    letter-spacing:2.5px;
+    font-weight:700;
+    color:#28477c;
+    background-color:#fff;
+    border:none;
+    border-radius:45px;
+    box-shadow:0 8px 15px rgba(0,0,0,.1);
+    transition:all .3s ease 0s;
+    cursor:pointer;
+    outline:0;
+    padding:12px
+  }
+  button:hover {
+    background-color:#27e5cc;
+    box-shadow:0 15px 20px #041c24;
+    color:#fff;
+    transform:translateY(-7px)
+  }
+  .body {
+    display:flex;
+    flex-direction:column;
+    align-items:center
+  }
+  input {
+    width:70px;
+    height:37px;
+    border-radius:16px;
+    background-color:#308cba;
+    box-shadow:rgba(50,50,93,.25) 0 30px 60px -12px inset,rgba(0,0,0,.3) 0 18px 36px -18px inset;
+    border:none;
+    padding:10px;
+    padding-left:25px;
+    font-size:16px
+  }
+  table {
+    width:900px
+  }
+  th, td {
+    background-color:#308cba;
+    font-size:18px;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    border:11px solid #000;
+    border-radius:50px
+  }
+  td{
+    font-size: 12px;
+  }
+  #priceForm {
+    display:flex;
+    align-items:center;
+    gap:25px;
+    background:0 0
+  }
+  
+#loader{
+    background-color: #308cba;
+    border-radius: 15px;
+}
+h1{
+    background: none;
+}
+.ring {
+    fill: none;
+    stroke-dasharray: 720 180;
+    stroke-linecap: round;
+    stroke: #308cba;
+    stroke-width: 30px;
+    animation: progress 9s linear normal infinite;
+  }
+  .left {
+    transform: translate(100px, 0) rotate(90deg);
+  }
+  .right {
+    transform: translate(100px, 200px) rotate(-90deg);
+    animation-delay: 4.5s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes progress {
+    0%,
+    10% {
+      stroke-dashoffset: 100;
+    }
+    90%,
+    100% {
+      stroke-dashoffset: -900;
+    }
+  }
+  
