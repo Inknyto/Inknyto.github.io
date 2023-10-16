@@ -21,14 +21,20 @@
     font-family:Verdana;
     font-size:15px
   }
+  .explanation, .explanation > p{
+    background: none;
+    text-align: center;
+  }
   table {
     border-collapse:collapse;
-    border:0;
+    border:none;
+    border-radius: 10px;
     font-family:Verdana;
     color:#5c5558;
     font-size:12px;
     text-align:left;
-    background:0 0
+    background: none;
+
   }
   * {
     font-family:sans-serif;
@@ -140,6 +146,13 @@ h1{
     animation-delay: 4.5s;
     animation-direction: reverse;
   }
+  .sub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+  }
+
   
   @keyframes progress {
     0%,
@@ -151,4 +164,15 @@ h1{
       stroke-dashoffset: -900;
     }
   }
-  
+  @media screen and (max-width: 930px) {
+    table {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    table, button, p, h1, td, th, label {
+      font-size: 90%;
+      /* padding: 1%; */
+    }
+  }

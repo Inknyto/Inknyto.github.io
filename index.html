@@ -16,19 +16,25 @@
     <h1>Price Calculator</h1>
 
     <form id="priceForm">
-        <label for="duration">Duration (in months):</label>
+<div class="explanation">
+    <label for="duration">Duration (in months):</label>
+    <p>Please pick a duration between <br> 5 and 9 months</p>
+</div>
         <input type="number" id="duration" required>
-        <button type="submit">Compute</button>
+        <div class="sub">
+            <button type="submit">Compute</button>
+            <button id='clear' type="clear">Clear</button>
+        </div>
     </form>
 
-    <h2>Result</h2>
+    <h2>Result (in euros)</h2>
     <table id="resultTable">
         <tr id="header">
-            <th>Duration</th>
-            <th>Mapped Price</th>
-            <th>Sprints</th>
-            <th>Extras</th>
-            <th>Daily</th>
+            <th style="width: 120px;" >Duration</th>
+            <th style="width: 170px;" >Mapped Price</th>
+            <th style="width: 270pxpx;" >Sprints</th>
+            <th style="width: 270px;" >Extras</th>
+            <th style="width: 70px;" >Daily</th>
         </tr>
     </table>
 <script src="script.js"></script>
