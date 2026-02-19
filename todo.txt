@@ -1,0 +1,5 @@
+Implement reading, writing and speaking(add reading), with appropriate icons
+Maybe transform to react app
+Extend list of projects
+Add image
+Ajust skills percentages
