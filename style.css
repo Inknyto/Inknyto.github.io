@@ -1,3 +1,4 @@
+/* ~/Documents/candidature_gabar/cv_data_scientist/inknyto.github.io/style.css 20 Feb at 11:31:26 AM */
 * {
     margin: 0;
     padding: 0;
@@ -230,12 +231,13 @@ body {
 
 .experience-header {
     display: flex;
-    justify-content: space-between;
+    gap:10px;
     align-items: baseline;
     margin-bottom: 8px;
 }
 
 .experience-title {
+    align-self:start;
     font-size: 16px;
     font-weight: 700;
     color: #1a202c;
